@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <meta name="description" content="Muhammad Mudassir Shahbaz — Full-Stack Web Developer & Automation Engineer. Building practical digital systems, websites and business tools." />
+  <meta name="author" content="Muhammad Mudassir Shahbaz" />
+  <meta name="theme-color" content="#14110E" />
+
+  <!-- Open Graph / Social -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Muhammad Mudassir Shahbaz | Full-Stack Web Developer & Automation" />
+  <meta property="og:description" content="Practical digital systems, fast websites, and business tools built for the real world." />
+  <meta property="og:image" content="assets/mudassir_hero.webp" />
+
+  <title>Muhammad Mudassir Shahbaz | Full-Stack Web Developer &amp; Automation</title>
+
+  <!-- Typography: Fraunces (Editorial Serif), Inter (Sans), DM Mono (Developer Precision) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Fraunces:ital,opsz,wght@0,9..144,500;0,9..144,700;1,9..144,500&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- Schema.org JSON-LD -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Person",
+        "name": "Muhammad Mudassir Shahbaz",
+        "jobTitle": "Full-Stack Web Developer & Automation Engineer",
+        "email": "mailto:mudassirshahbaz372@gmail.com",
+        "sameAs": [
+          "https://github.com/Mian-Mudassir12",
+          "https://linkedin.com/in/mudassir-shahbaz",
+          "https://www.fiverr.com/mudassirshah551"
+        ],
+        "description": "Full-Stack Web Developer & Automation Engineer building practical digital systems, custom web applications, e-commerce platforms, and business tools."
+      }
+    ]
+  }
+  </script>
+</head>
+<body data-t="dark">
+
+  <!-- ===== EDITORIAL PRELOADER (CINEMATIC INTRO) ===== -->
+  <div id="preloader" class="preloader" aria-hidden="true" title="Click anywhere to skip intro">
+    <div class="preloader-ambient"></div>
+    <div class="preloader-inner g">
+      <div class="preloader-header l">
+        <div class="preloader-brand">
+          <span class="brand-monogram">MS</span>
+          <span class="mute">Muhammad Mudassir Shahbaz</span>
+        </div>
+        <div class="preloader-coords mute">PAKISTAN · WORKING WORLDWIDE</div>
+        <div class="preloader-badge">[ 2026 ARCHITECTURE ]</div>
+      </div>
+
+      <div class="preloader-center">
+        <div class="preloader-kicker l" id="preloader-kicker">[ STAGE 01 — ARCHITECTURE BOOT ]</div>
+        <div class="preloader-title">
+          <span class="preloader-line">DIGITAL</span>
+          <span class="preloader-line ac">BUILDER.</span>
+        </div>
+        <div class="preloader-sub l mute" id="preloader-subtext">
+          <span>Full-Stack Web Systems · Custom ERPs · Automation</span>
+        </div>
+      </div>
+
+      <div class="preloader-footer">
+        <div class="preloader-bar-wrap">
+          <div class="preloader-bar" id="preloader-bar"></div>
+        </div>
+        <div class="preloader-meta l">
+          <div class="preloader-telemetry mute" id="preloader-telemetry">
+            <span class="pulse-dot"></span>
+            <span id="preloader-telemetry-text">Compiling React 19, TypeScript, and Python Pipelines...</span>
+          </div>
+          <div class="preloader-counter" id="preloader-count">00%</div>
+        </div>
+        <div class="preloader-skip-hint l mute">
+          <span>Click anywhere to enter studio ↗</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <a class="skip" href="#work">Skip to work</a>
+
+  <!-- WebGL 3D Background Canvas -->
+  <canvas id="gl" aria-hidden="true"></canvas>
+
+  <!-- Smooth Blend-Difference Cursor -->
+  <div class="cur" id="cur" aria-hidden="true"></div>
+
+  <!-- Primary Navigation -->
+  <nav aria-label="Primary">
+    <a class="l brand" href="#top">
+      <span class="brand-monogram">MS</span>
+      <span>Mudassir</span>
+    </a>
+    <div class="mid l">
+      <a href="#work">Work</a>
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="#planner">Planner</a>
+      <a href="#tech-section">Toolkit</a>
+    </div>
+    <div class="nav-right">
+      <a class="l nav-cta" href="#contact">Let’s talk</a>
+      <button class="nav-toggle" id="nav-toggle" type="button" aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Mobile Drawer Menu -->
+  <div class="mobile-drawer" id="mobile-drawer" aria-hidden="true">
+    <div class="mobile-drawer-inner l">
+      <a href="#work" class="mobile-link">Work</a>
+      <a href="#about" class="mobile-link">About</a>
+      <a href="#services" class="mobile-link">Services</a>
+      <a href="#planner" class="mobile-link">Project Planner</a>
+      <a href="#tech-section" class="mobile-link">Toolkit</a>
+      <a href="#contact" class="mobile-link">Contact</a>
+      <a href="#contact" class="btn f mobile-cta">Let’s talk →</a>
+    </div>
+  </div>
+
+  <main id="top">
+
+    <!-- ===== HERO SECTION (WITH SIGNATURE PINNED SCROLL ANIMATION) ===== -->
+    <header class="hero g hero-stage" data-t="dark" data-o="1">
+      <span class="cue l mute">Scroll ↓</span>
+
+      <div class="hero-composition">
+        <h1 class="hero-name" aria-label="Muhammad Mudassir Shahbaz">
+          <span class="w"><span>MUDA<span class="ac">SSIR</span></span></span>
+          <span class="w"><span>SHAHBAZ</span></span>
+        </h1>
+
+        <div class="portrait-shell" aria-label="Portrait of Muhammad Mudassir Shahbaz">
+          <img class="hero-portrait" src="assets/mudassir_hero.webp" alt="Portrait of Muhammad Mudassir Shahbaz" fetchpriority="high" />
+        </div>
+
+        <div class="hero-note l">
+          <span class="hero-dot"></span>
+          DIGITAL BUILDER<br />
+          <span class="mute">WEB · SYSTEMS · AUTOMATION</span>
+        </div>
+      </div>
+
+      <div class="who">
+        <div>
+          <p class="l">Muhammad Mudassir Shahbaz</p>
+          <p class="l mute">Digital Builder / Full-Stack Web Developer</p>
+          <p class="s">I build practical digital systems, websites and business tools. Less template. More thinking.</p>
+        </div>
+        <div class="btns">
+          <a class="btn f mag" href="#work">View selected work</a>
+          <a class="btn mag" href="#contact">Let’s talk</a>
+        </div>
+      </div>
+    </header>
+
+    <!-- ===== MARQUEE RIBBON ===== -->
+    <div class="run" aria-hidden="true" data-t="dark" data-o=".6">
+      <div>
+        Less template. More thinking.<span>✦</span>
+        Real workflows. Honest code.<span>✦</span>
+        Things should work beautifully.<span>✦</span>
+        Less template. More thinking.<span>✦</span>
+        Real workflows. Honest code.<span>✦</span>
+        Things should work beautifully.<span>✦</span>
+      </div>
+    </div>
+
+    <!-- ===== SELECTED WORK (HORIZONTAL PINNED TRACK) ===== -->
+    <section id="work" class="hs" data-t="dark" data-o=".16" aria-label="Selected work">
+      <div class="track" id="track">
+
+        <!-- Intro Panel -->
+        <div class="panel i">
+          <h2 data-l="Selected|work"></h2>
+          <p class="mute track-intro-text">Five production builds. Scroll sideways or use the arrow controls. Real systems built for real operations.</p>
+          <div class="track-hint l mute">
+            <span>Scroll horizontally</span> <span class="arrow-hint">→</span>
+          </div>
+        </div>
+
+        <!-- Project 01: Peace In War Clothing -->
+        <article class="panel" data-i="0">
+          <div>
+            <div class="num">01</div>
+            <span class="l mute">E-commerce / Web development</span>
+            <h3>Peace In War Clothing</h3>
+            <p class="panel-desc">A live streetwear store on WordPress and WooCommerce. Built with 5 collections, cart drawer, and global currency checkout (USD, EUR, JPY).</p>
+            <div class="tags l">
+              <span>WordPress</span>
+              <span>WooCommerce</span>
+              <span>Stripe</span>
+              <span>Multi-Currency</span>
+              <span>SEO</span>
+            </div>
+            <div class="acts">
+              <a class="lk" href="https://peaceinwarclothing.com/" target="_blank" rel="noopener">Visit live site ↗</a>
+              <button class="lk mag" data-i="0" type="button">Case study →</button>
+            </div>
+          </div>
+          <figure class="art" data-art="peace"></figure>
+        </article>
+
+        <!-- Project 02: Allied School Management System -->
+        <article class="panel" data-i="1">
+          <div>
+            <div class="num">02</div>
+            <span class="l mute">Custom web platform / Education</span>
+            <h3>Allied School Management System</h3>
+            <p class="panel-desc">One admin portal for fees, students, teachers, attendance and announcements. Replaced paper records with automated challans and Wi-Fi punch-in.</p>
+            <div class="tags l">
+              <span>Custom web app</span>
+              <span>React</span>
+              <span>Node.js</span>
+              <span>Vercel</span>
+              <span>Fee Vouchers</span>
+            </div>
+            <div class="acts">
+              <button class="lk mag" data-i="1" type="button">Case study →</button>
+            </div>
+          </div>
+          <figure class="art" data-art="school"></figure>
+        </article>
+
+        <!-- Project 03: Kah-Nur Attendance System -->
+        <article class="panel" data-i="2">
+          <div>
+            <div class="num">03</div>
+            <span class="l mute">Operational system / Attendance</span>
+            <h3>Kah-Nur Attendance System</h3>
+            <p class="panel-desc">Teacher and student attendance, leave, holidays and reports in one admin system. Integrated with 4 biometric hardware machines and mobile QR scan.</p>
+            <div class="tags l">
+              <span>React</span>
+              <span>Tailwind CSS</span>
+              <span>Supabase</span>
+              <span>Biometric SDK</span>
+              <span>QR Gates</span>
+            </div>
+            <div class="acts">
+              <button class="lk mag" data-i="2" type="button">Case study →</button>
+            </div>
+          </div>
+          <figure class="art" data-art="qr"></figure>
+        </article>
+
+        <!-- Project 04: Golden Harvest Foundation -->
+        <article class="panel" data-i="3">
+          <div>
+            <div class="num">04</div>
+            <span class="l mute">Website / Foundation</span>
+            <h3>Golden Harvest Foundation</h3>
+            <p class="panel-desc">A modern React site for a charitable foundation, built around mission impact storytelling, volunteer onboarding, and direct multi-tier giving.</p>
+            <div class="tags l">
+              <span>React 19</span>
+              <span>Vite</span>
+              <span>TypeScript</span>
+              <span>Tailwind CSS</span>
+            </div>
+            <div class="acts">
+              <button class="lk mag" data-i="3" type="button">Case study →</button>
+            </div>
+          </div>
+          <figure class="art" data-art="wheat"></figure>
+        </article>
+
+        <!-- Project 05: Milk Pricing & Management System -->
+        <article class="panel" data-i="4">
+          <div>
+            <div class="num">05</div>
+            <span class="l mute">Custom business ERP / Dairy Industry</span>
+            <h3>Milk Pricing &amp; Management System</h3>
+            <p class="panel-desc">Specialized dairy collection software built around real milk testing workflows. Automates Fat% &amp; SNF% pricing formulas, farmer ledgers, and billing slips.</p>
+            <div class="tags l">
+              <span>Python</span>
+              <span>React</span>
+              <span>Formula Engine</span>
+              <span>Farmer Ledger</span>
+            </div>
+            <div class="acts">
+              <button class="lk mag" data-i="4" type="button">Case study →</button>
+            </div>
+          </div>
+          <figure class="art" data-art="dairy"></figure>
+        </article>
+
+      </div>
+
+      <!-- Horizontal Track Bottom Indicator & Controls -->
+      <div class="hp l">
+        <span id="cnt">01 / 05</span>
+        <i><b id="bar"></b></i>
+        <div class="hp-controls">
+          <button class="hp-btn mag" id="prev-btn" type="button" aria-label="Previous">←</button>
+          <button class="hp-btn mag" id="next-btn" type="button" aria-label="Next">→</button>
+          <span class="mute hp-hint">Scroll →</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== ABOUT SECTION (CLEAN & SEPARATED LAYOUT) ===== -->
+    <section id="about" class="sec g" data-t="light" data-o=".12" aria-labelledby="ah">
+      <div class="about-header-wrap">
+        <span class="l mute">[ 02 — Philosophy &amp; Background ]</span>
+        <h2 id="ah" data-l="One developer.|A lot of|building."></h2>
+      </div>
+
+      <div class="about-grid">
+        <div class="about-photo-col fu">
+          <div class="about-photo-card">
+            <div class="about-photo-frame">
+              <img src="assets/mudassir_about.webp" alt="Muhammad Mudassir Shahbaz" class="about-img" />
+            </div>
+            <div class="about-photo-footer l">
+              <span class="caption-dot"></span>
+              <span>Based in Pakistan · Working Worldwide</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="about-content-col">
+          <p class="big fu">Things should work beautifully.</p>
+          <p class="fu">
+            I’m <strong>Muhammad Mudassir Shahbaz</strong>, a full-stack web developer and automation engineer based in Pakistan,
+            available to work with companies, founders and teams in the <strong>US, UK, UAE, Canada and Australia</strong>.
+          </p>
+          <p class="fu" style="margin-top:16px">
+            I build across full-stack web development, e-commerce stores, custom business systems, school ERPs,
+            biometric attendance hardware integrations, and workflow automation bots.
+            I focus on simple architecture, fast performance, and code that solves the actual operational problem without adding bloat.
+          </p>
+
+          <div class="about-points fu">
+            <div class="point-item">
+              <span class="point-num l">01</span>
+              <div>
+                <strong>Engineered for Real Workflows</strong>
+                <p class="mute">Built around how businesses and teams actually operate day-to-day.</p>
+              </div>
+            </div>
+            <div class="point-item">
+              <span class="point-num l">02</span>
+              <div>
+                <strong>Honest Architecture</strong>
+                <p class="mute">Modern React, Node, and Python stacks without unnecessary libraries.</p>
+              </div>
+            </div>
+            <div class="point-item">
+              <span class="point-num l">03</span>
+              <div>
+                <strong>Direct Collaboration</strong>
+                <p class="mute">You talk directly with the engineer building your product.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== SERVICES SECTION ===== -->
+    <section id="services" class="sec g" data-t="light" data-o=".1" style="padding-top:0" aria-labelledby="sh">
+      <h2 id="sh" data-l="What I|build" style="margin-bottom:clamp(36px,5vw,70px)"></h2>
+      <div class="svc" id="svc"></div>
+    </section>
+
+    <!-- ===== PROJECT PLANNER SECTION ===== -->
+    <section id="planner" class="sec g" data-t="dark" data-o=".3" aria-labelledby="plh">
+      <div class="planner-wrap fu">
+        <span class="l mute">[ 03 — Interactive Scope Estimator ]</span>
+        <h2 id="plh" style="font-size:clamp(2.4rem,6vw,5.5rem);margin-top:8px;">Plan Your Build</h2>
+        <p class="mute" style="max-width:52ch;margin-top:10px;font-size:1.05rem;">
+          Select your project type and scope below to preview a tailored technical stack, timeline, and delivery milestones.
+        </p>
+
+        <div class="planner-grid">
+          <div>
+            <label class="l mute" style="display:block;margin-bottom:8px;">Project Category</label>
+            <div class="planner-choice-group">
+              <button class="planner-chip planner-service-btn active" data-service="ecommerce" type="button">E-Commerce Store</button>
+              <button class="planner-chip planner-service-btn" data-service="platform" type="button">Custom Platform / ERP</button>
+              <button class="planner-chip planner-service-btn" data-service="website" type="button">Marketing Website</button>
+              <button class="planner-chip planner-service-btn" data-service="automation" type="button">Automation / Bot</button>
+            </div>
+
+            <label class="l mute" style="display:block;margin-top:24px;margin-bottom:8px;">Scope Scale</label>
+            <div class="planner-choice-group">
+              <button class="planner-chip planner-scope-btn" data-scope="starter" type="button">Starter MVP</button>
+              <button class="planner-chip planner-scope-btn active" data-scope="growth" type="button">Growth &amp; Core</button>
+              <button class="planner-chip planner-scope-btn" data-scope="enterprise" type="button">Enterprise</button>
+            </div>
+          </div>
+
+          <div class="planner-result-card">
+            <div>
+              <div class="planner-metrics">
+                <span class="l mute">Estimated Timeline</span>
+                <span class="planner-big-time" id="planner-time">~5 Weeks</span>
+              </div>
+
+              <div style="margin-top:18px;">
+                <span class="l mute" style="display:block;margin-bottom:8px;">Recommended Stack</span>
+                <div id="planner-stack" style="display:flex;flex-wrap:wrap;gap:6px;"></div>
+              </div>
+
+              <div style="margin-top:18px;">
+                <span class="l mute" style="display:block;margin-bottom:8px;">Core Milestones</span>
+                <ul id="planner-milestones" class="l mute" style="list-style:none;display:flex;flex-direction:column;gap:6px;"></ul>
+              </div>
+            </div>
+
+            <div style="margin-top:24px;padding-top:16px;border-top:1px solid var(--line);display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:12px;">
+              <span class="l mute">Ready to discuss?</span>
+              <a id="planner-cta" class="btn f mag" href="mailto:mudassirshahbaz372@gmail.com">Start This Build →</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== TOOLKIT & STACK SECTION (CLEAN & INTERACTIVE - NO EMPTY BLOCKS) ===== -->
+    <section id="tech-section" class="sec g" data-t="dark" data-o=".5" aria-labelledby="th">
+      <div class="toolkit-heading-wrap">
+        <span class="l mute">[ 04 — Toolkit &amp; Stack ]</span>
+        <h2 id="th" data-l="Tools &amp;|Technologies"></h2>
+        <p class="toolkit-sub mute">Languages, frameworks, databases, and operational tools I build with daily in production.</p>
+      </div>
+
+      <div class="tech-navigator-card fu">
+        <div class="tech-prompt l mute">
+          <span class="tech-prompt-dot"></span>
+          <span>Click or hover any technology below to inspect live production usage:</span>
+        </div>
+
+        <div class="tech" id="tech">
+          <button type="button" class="on active-inspected" data-tool="React">React</button>
+          <button type="button" class="on" data-tool="TypeScript">TypeScript</button>
+          <button type="button" data-tool="JavaScript">JavaScript</button>
+          <button type="button" class="on" data-tool="Node.js">Node.js</button>
+          <button type="button" data-tool="Express">Express</button>
+          <button type="button" class="on" data-tool="Python">Python</button>
+          <button type="button" class="on" data-tool="Tailwind">Tailwind</button>
+          <button type="button" data-tool="PostgreSQL">PostgreSQL</button>
+          <button type="button" class="on" data-tool="Supabase">Supabase</button>
+          <button type="button" class="on" data-tool="Vite">Vite</button>
+          <button type="button" class="on" data-tool="WordPress">WordPress</button>
+          <button type="button" class="on" data-tool="WooCommerce">WooCommerce</button>
+          <button type="button" data-tool="Git">Git</button>
+          <button type="button" data-tool="GitHub">GitHub</button>
+          <button type="button" class="on" data-tool="Vercel">Vercel</button>
+        </div>
+
+        <div class="tech-detail-box" id="tech-detail-box">
+          <div class="tech-detail-indicator l">
+            <span class="tech-detail-dot"></span>
+            <span class="mute">Active Inspection Details:</span>
+          </div>
+          <p class="leg" id="leg" aria-live="polite">React 19 &amp; React.js — powers the front ends of Allied School Management, Kah-Nur Attendance, and Golden Harvest Foundation with fast virtual DOM and component reusability.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== CONTACT SECTION ===== -->
+    <section id="contact" class="ct sec g" data-t="dark" data-o=".85" aria-labelledby="ch">
+      <h2 id="ch" data-l="Have a|project|in mind?|Let’s make|it real." data-ac="3"></h2>
+
+      <div class="contact-grid">
+        <div>
+          <p class="mute l">Direct Inquiries</p>
+          <div class="email-btn-group">
+            <a class="btn f mag" href="mailto:mudassirshahbaz372@gmail.com">
+              <span>Send Email Directly ↗</span>
+            </a>
+            <button class="btn mag" id="copy-email-btn" type="button" aria-label="Copy email address">
+              <span id="copy-text">📋 Copy Email</span>
+            </button>
+          </div>
+
+          <div class="links l contact-pills">
+            <a href="https://github.com/Mian-Mudassir12" target="_blank" rel="noopener">GitHub ↗</a>
+            <a href="https://linkedin.com/in/mudassir-shahbaz" target="_blank" rel="noopener">LinkedIn ↗</a>
+            <a href="https://www.fiverr.com/mudassirshah551" target="_blank" rel="noopener">Fiverr ↗</a>
+          </div>
+
+          <p class="mute" style="margin-top:20px;max-width:38ch;font-size:0.95rem">
+            Available for new projects. Tell me what you want to build and I’ll reply by email.
+          </p>
+        </div>
+
+        <div class="contact-form-wrap">
+          <form id="contact-form" class="clean-form" novalidate>
+            <div class="form-row">
+              <label for="name" class="l">Name</label>
+              <input type="text" id="name" name="name" required placeholder="Alex Turner" />
+            </div>
+
+            <div class="form-row">
+              <label for="email" class="l">Email</label>
+              <input type="email" id="email" name="email" required placeholder="alex@company.com" />
+            </div>
+
+            <div class="form-row">
+              <label for="project-type" class="l">Project Scope</label>
+              <select id="project-type" name="type">
+                <option value="Web Development">Web Development / Web Application</option>
+                <option value="E-Commerce Store">E-Commerce Store (WooCommerce / Custom)</option>
+                <option value="Business System / ERP">Custom Business System / Portal</option>
+                <option value="Biometric Attendance">Attendance / Biometrics / Hardware</option>
+                <option value="Automation / Bots">Automation / Python Bot / API</option>
+                <option value="Other Consultation">Other Inquiries</option>
+              </select>
+            </div>
+
+            <div class="form-row">
+              <label for="message" class="l">Message</label>
+              <textarea id="message" name="message" rows="4" required placeholder="Tell me what you are looking to build..."></textarea>
+            </div>
+
+            <button type="submit" class="btn f mag" id="form-submit-btn">Send Message →</button>
+            <div id="form-feedback" class="form-feedback l" aria-live="polite"></div>
+          </form>
+        </div>
+      </div>
+
+      <footer class="l">
+        <span>© 2026 Muhammad Mudassir Shahbaz</span>
+        <span>Built for the problem, not the template.</span>
+      </footer>
+    </section>
+
+  </main>
+
+  <!-- Case Study Dialog -->
+  <dialog id="dlg" aria-labelledby="dt">
+    <button class="btn x mag" id="cl" aria-label="Close case study" type="button">Close ✕</button>
+    <div id="dc"></div>
+  </dialog>
+
+  <!-- External CDNs -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
