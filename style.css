@@ -47,7 +47,7 @@ html {
 }
 ::-webkit-scrollbar-thumb {
   background: var(--acc);
-  border-radius: 3px;
+  border-radius: 2px;
 }
 
 body {
@@ -97,7 +97,7 @@ main, nav {
 }
 
 .l {
-  font: 500 0.7rem/1.4 var(--m);
+  font: 500 0.75rem/1.4 var(--m);
   letter-spacing: 0.09em;
   text-transform: uppercase;
 }
@@ -171,7 +171,7 @@ main, nav {
   justify-content: space-between;
   align-items: center;
   gap: 16px;
-  font-size: 0.72rem;
+  font-size: 0.75rem;
   letter-spacing: 0.1em;
   flex-wrap: wrap;
 }
@@ -204,7 +204,7 @@ main, nav {
 
 .preloader-kicker {
   color: var(--acc);
-  font-size: 0.74rem;
+  font-size: 0.75rem;
   letter-spacing: 0.16em;
   transition: opacity 0.25s ease;
 }
@@ -258,7 +258,7 @@ main, nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  font-size: 0.74rem;
+  font-size: 0.75rem;
   letter-spacing: 0.1em;
   gap: 12px;
 }
@@ -289,7 +289,7 @@ main, nav {
 }
 
 .preloader-skip-hint {
-  font-size: 0.64rem;
+  font-size: 0.75rem;
   letter-spacing: 0.08em;
   text-align: right;
   opacity: 0.55;
@@ -343,7 +343,7 @@ nav::before {
   border: 1px solid var(--acc);
   color: var(--acc);
   border-radius: 4px;
-  font-size: 0.65rem;
+  font-size: 0.75rem;
   font-weight: 700;
 }
 
@@ -425,7 +425,7 @@ nav a:hover {
 }
 
 .mobile-link {
-  font-size: 1.05rem;
+  font-size: 1rem;
   padding-block: 6px;
   border-bottom: 1px solid var(--line);
 }
@@ -486,7 +486,7 @@ h1 em, h2 .ac {
   border: 1.5px solid var(--fg);
   border-radius: 99px;
   text-decoration: none;
-  font: 500 0.74rem var(--m);
+  font: 500 0.75rem var(--m);
   letter-spacing: 0.09em;
   text-transform: uppercase;
   transition: background 0.25s, color 0.25s, border-color 0.25s;
@@ -516,7 +516,7 @@ h1 em, h2 .ac {
   border: 0;
   border-bottom: 1.5px solid var(--acc);
   color: inherit;
-  font: 500 0.74rem var(--m);
+  font: 500 0.75rem var(--m);
   letter-spacing: 0.09em;
   text-transform: uppercase;
   padding: 2px 0;
@@ -656,7 +656,7 @@ h1 .w:nth-child(even) {
   right: 2%;
   bottom: 12%;
   line-height: 1.9;
-  font-size: 0.66rem;
+  font-size: 0.75rem;
 }
 
 .hero-dot {
@@ -696,7 +696,7 @@ h1 .w:nth-child(even) {
   .hero-note {
     right: 0;
     bottom: 4%;
-    font-size: 0.55rem;
+    font-size: 0.75rem;
   }
   .hero-stage .who {
     align-items: flex-start;
@@ -778,7 +778,7 @@ h2 {
 .track-intro-text {
   max-width: 44ch;
   margin-top: 24px;
-  font-size: 1.15rem;
+  font-size: 1.2rem;
   line-height: 1.5;
 }
 
@@ -802,13 +802,13 @@ h2 {
 }
 
 .panel h3 {
-  font-size: clamp(2.2rem, 5.6vw, 6rem);
+  font-size: clamp(2.2rem, 5.8vw, 5.6rem);
   margin: 14px 0;
 }
 
 .panel-desc {
   max-width: 44ch;
-  font-size: 1.05rem;
+  font-size: 1rem;
 }
 
 .tags {
@@ -1022,7 +1022,7 @@ body[data-t="light"] .about-photo-card {
   gap: 10px;
   padding: 14px 18px;
   border-top: 1px solid var(--line);
-  font-size: 0.72rem;
+  font-size: 0.75rem;
   letter-spacing: 0.08em;
   color: var(--mute);
   background: rgba(0, 0, 0, 0.02);
@@ -1070,12 +1070,12 @@ body[data-t="light"] .about-photo-card {
 
 .point-item strong {
   display: block;
-  font-size: 1.02rem;
+  font-size: 1rem;
   letter-spacing: -0.01em;
 }
 
 .point-item p {
-  font-size: 0.92rem;
+  font-size: 0.9rem;
   margin-top: 3px;
 }
 
@@ -1118,7 +1118,7 @@ body[data-t="light"] .about-photo-card {
 }
 
 .svc summary span {
-  font: 500 0.8rem var(--m);
+  font: 500 0.75rem var(--m);
   transition: transform 0.3s ease;
 }
 
@@ -1137,7 +1137,7 @@ body[data-t="light"] .about-photo-card {
    ============================ */
 .planner-wrap {
   border: 1px solid var(--line);
-  border-radius: 12px;
+  border-radius: 8px;
   padding: clamp(24px, 4vw, 48px);
   margin-top: clamp(40px, 6vw, 80px);
   background: rgba(244, 239, 230, 0.02);
@@ -1165,7 +1165,7 @@ body[data-t="light"] .about-photo-card {
 
 .planner-chip {
   padding: 10px 14px;
-  border-radius: 6px;
+  border-radius: 4px;
   border: 1px solid var(--line);
   background: transparent;
   color: var(--mute);
@@ -1218,7 +1218,7 @@ body[data-t="light"] .about-photo-card {
   background: rgba(255, 255, 255, 0.04);
   border: 1px solid var(--line);
   border-radius: 4px;
-  font: 500 0.68rem var(--m);
+  font: 500 0.75rem var(--m);
   letter-spacing: 0.06em;
   color: var(--fg);
   transition: all 0.2s ease;
@@ -1245,7 +1245,7 @@ body[data-t="light"] .tool-tag.highlight {
 .toolkit-sub {
   margin-top: 14px;
   max-width: 58ch;
-  font-size: 1.05rem;
+  font-size: 1rem;
   line-height: 1.6;
   color: var(--mute);
 }
@@ -1269,7 +1269,7 @@ body[data-t="light"] .tech-navigator-card {
   align-items: center;
   gap: 10px;
   margin-bottom: clamp(24px, 3.2vw, 38px);
-  font-size: 0.72rem;
+  font-size: 0.75rem;
   letter-spacing: 0.12em;
   text-transform: uppercase;
   color: var(--mute);
@@ -1346,7 +1346,7 @@ body[data-t="light"] .tech-navigator-card {
   display: inline-flex;
   align-items: center;
   gap: 8px;
-  font-size: 0.7rem;
+  font-size: 0.75rem;
   letter-spacing: 0.1em;
   text-transform: uppercase;
 }
@@ -1373,7 +1373,7 @@ body[data-t="light"] .tech-navigator-card {
    CONTACT SECTION
    ============================ */
 .ct h2 {
-  font-size: clamp(3.2rem, 12.6vw, 13.4rem);
+  font-size: clamp(3.6rem, 13.4vw, 13.4rem);
   line-height: 0.86;
 }
 
@@ -1411,7 +1411,7 @@ body[data-t="light"] .tech-navigator-card {
 
 .email-btn-group .btn {
   padding: 12px 22px;
-  font-size: 0.72rem;
+  font-size: 0.75rem;
 }
 
 .contact-pills {
@@ -1439,7 +1439,7 @@ body[data-t="light"] .tech-navigator-card {
 
 .form-row label {
   color: var(--mute);
-  font-size: 0.65rem;
+  font-size: 0.75rem;
 }
 
 .form-row input,
@@ -1451,7 +1451,7 @@ body[data-t="light"] .tech-navigator-card {
   padding: 12px 14px;
   color: var(--fg);
   font-family: inherit;
-  font-size: 0.95rem;
+  font-size: 0.9rem;
   border-radius: 4px;
   transition: border-color 0.2s;
 }
@@ -1474,7 +1474,7 @@ body[data-t="light"] .tech-navigator-card {
 }
 
 .form-feedback {
-  font-size: 0.72rem;
+  font-size: 0.75rem;
   min-height: 1.4em;
 }
 
@@ -1527,14 +1527,14 @@ dialog h4 {
   color: var(--acc);
   margin: 20px 0 4px;
   font-family: var(--m);
-  font-size: 0.74rem;
+  font-size: 0.75rem;
   text-transform: uppercase;
   letter-spacing: 0.1em;
 }
 
 dialog p {
   color: var(--fg);
-  font-size: 1.05rem;
+  font-size: 1rem;
   line-height: 1.6;
 }
 
@@ -1585,3 +1585,14 @@ dialog .x {
   mask-image:linear-gradient(to bottom,#000 78%,transparent 100%),linear-gradient(to right,transparent 0,#000 10%,#000 86%,transparent 100%);
   mask-composite:intersect;
 }
+
+/* ===== usability cleanup: shared button system, sentence-case CTAs, 12px floor ===== */
+.btn,.lk{text-transform:none;letter-spacing:.02em;font-size:.9rem}
+.btn{padding:14px 24px;border-radius:99px}
+.lk{padding:2px 0}
+.planner-chip{border-radius:99px;padding:10px 16px}
+.hp-btn{width:40px;height:40px}
+.tech button.active-inspected{color:inherit;text-decoration:underline;text-decoration-color:var(--acc);text-decoration-thickness:.06em;text-underline-offset:.12em}
+.hero .who p.l,.track-hint,.hero-note{text-transform:none;letter-spacing:.04em}
+.track-hint{font-size:.9rem}
+.email-btn-group .btn{padding:14px 24px;font-size:.9rem}
