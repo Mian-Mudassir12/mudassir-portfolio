@@ -1,0 +1,30 @@
+# Muhammad Mudassir Shahbaz
+
+> Portfolio of Muhammad Mudassir Shahbaz, a full-stack web developer in Pakistan. React websites, Shopify and WooCommerce stores, WordPress sites, business automations, and AI call agents for small businesses and nonprofits.
+
+## About
+
+- [Portfolio home](https://www.mudassirshahbaz.me/): Full-stack web developer based in Pakistan. Founder of ORVIA.
+- [GitHub](https://github.com/Mian-Mudassir12): Open-source projects and code.
+- [LinkedIn](https://www.linkedin.com/in/mudassir-shahbaz): Professional profile.
+
+## Services
+
+- Custom websites with React, Node.js, and modern JavaScript
+- Shopify and WooCommerce online stores
+- WordPress websites, including Elementor builds
+- Business automations with n8n, Make, and Zapier
+- AI call agents and chatbots for customer support
+
+## Projects
+
+- [Form Backend](https://form-backend-tool.vercel.app/): Form backend service for websites, built on Supabase with email and WhatsApp notifications.
+- [Peace In War](https://peaceinwarclothing.com/): WooCommerce streetwear store in the United States.
+- [Allied School Management System](https://alliedschool4gd.vercel.app/): School management system with attendance, fees, and reporting.
+- [Sleep Heaven](https://sleep-heaven.netlify.app/): Furniture ordering website.
+- [ORVIA](https://orvia-dev.vercel.app/): Web development agency website.
+
+## Contact
+
+- Email: mudassirshahbaz372@gmail.com
+- Location: Renala Khurd, Punjab, Pakistan (also based in Lahore)
